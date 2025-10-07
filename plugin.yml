@@ -1,0 +1,14 @@
+name: InvSee
+main: InvSee\InvSee
+version: 1.0.0
+api: [5.0.0]
+author: TheEldranor0fficial
+commands:
+  invsee:
+    description: Voir ou modifier l'inventaire d'un joueur.
+    usage: "/invsee <joueur>"
+    permission: invsee.command
+permissions:
+  invsee.command:
+    description: La commande est /invsee
+    default: op
